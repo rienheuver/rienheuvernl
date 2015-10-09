@@ -79,7 +79,6 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -121,6 +120,16 @@ aside {
     background-color: transparent;
 }
 
+@media(max-width: 767px) {
+    .navbar-default {
+        background-color: #fff;
+    }
+
+    .navbar-default.affix {
+        background-color: #fff;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -148,7 +157,7 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: #0090ff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -179,6 +188,34 @@ header {
     text-align: center;
     color: #fff;
     background-color: #444444;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+@media(min-width: 768px) {
+    #logo-white {
+        display: block;
+    }
+
+    #logo-blue {
+        display: none;
+    }
+}
+@media(max-width: 767px) {
+    #logo-white {
+        display: none;
+    }
+
+    #logo-blue {
+        display: block;
+    }
 }
 
 #tablet, #phone {

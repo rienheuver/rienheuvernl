@@ -199,6 +199,10 @@ header {
     height: 50px;
 }
 
+#mainNav {
+    border: none;
+}
+
 @media(min-width: 768px) {
     #logo-white {
         display: block;

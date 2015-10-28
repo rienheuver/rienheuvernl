@@ -3,3 +3,7 @@
     background-image: url(../img/tablet.png);
   }
 }
+
+#mainNav {
+	border: none;
+}

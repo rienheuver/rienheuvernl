@@ -203,6 +203,10 @@ header {
     border: none;
 }
 
+#logo-white, #logo-blue {
+  width: 91px;
+}
+
 @media(min-width: 768px) {
     #logo-white {
         display: block;
